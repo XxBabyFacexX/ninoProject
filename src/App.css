@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  text-align: center;
+  background-color:white;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.body{
+  width: 50%;
+  margin: auto;
+}
+
+.control{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.control label{
+  float: left;
+}
+.clr{
+  float:right;
+  margin-top:3px;
+  background-color: white;
+  border:none;
+}
+.contrl{
+  border: none;
+  margin-left:10px;
+  margin-right:10px;
+  background-color: white;
+}
+
+.con{
+  border:solid;
+  width: auto;
+  margin: auto;
+}
+
+input{
+  font-size: 20px;
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 65%;
+  border:none;
+}
+
+#del{
+  font-size: 20px;
+  border:none;
+  margin: auto;
+  float: right;
+}
+.delIcon{
+  float: right;
+}
+
+.sub{
+  font-size: 20px;
+  padding: 20px;
+  padding-left: 20px;
+  border:none;
+  float: right;
+}
+
+ul li
+{
+  font-size: 20px;
+  width: 760px;
+  margin: auto;
+  border:solid;
+  list-style: none;
+  padding: 20px;
+  padding-left: 20px;
+}
+
+ul li .delIcon{
+  visibility: hidden;
+}
+ul li:hover .delIcon{
+  visibility: visible;
+}
+
+.Checkbox{
+  margin-right:10px;
+  font-size: 20px;
+}
+
+ul li input{
+  width: 50px;
+}
+
+ul{
+  min-height: 0px;
+  padding-left: 0px;
+}
